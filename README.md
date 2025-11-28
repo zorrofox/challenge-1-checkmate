@@ -1,16 +1,46 @@
-# React + Vite
+# Checkmate ♟️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An intelligent grocery assistant that turns your passive list-keeping into an active, smart experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **AI Auto-Breakdown**: Type what you need, and the AI automatically breaks it down into tasks or items.
+-   **Recipe Integration**: Paste a recipe link or description, and the AI extracts ingredients into a categorized list.
+-   **Auto-Categorization**: Automatically groups items by aisle (Produce 🥬, Dairy 🥛, Meat 🥩, etc.) for efficient shopping.
+-   **Voice-to-List**: Natural language voice input to add multiple items at once using Web Speech API.
+-   **Meal Plan to List**: Generate a weekly meal plan and shopping list from a single prompt (e.g., "healthy dinners for two").
+-   **LocalStorage Persistence**: Your chat history and items are saved in your browser.
+-   **Secure API Key**: Enter your own Gemini API key in the settings for secure access.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   **Framework**: Vite + React
+-   **Styling**: Plain CSS (Modern & Responsive)
+-   **AI**: Gemini API (via `@google/generative-ai`)
+-   **Voice**: Web Speech API
+-   **Storage**: LocalStorage
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+-   Node.js and npm installed.
+-   A Gemini API key from [Google AI Studio](https://aistudio.google.com/).
+
+### Installation
+
+1.  Clone the repository (or download the files).
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+3.  Run the development server:
+    ```bash
+    npm run dev
+    ```
+4.  Open the app in your browser (usually `http://localhost:5173`).
+5.  Click the ⚙️ icon in the top right to enter your Gemini API key.
+
+## License
+
+MIT
