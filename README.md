@@ -41,6 +41,10 @@ An intelligent grocery assistant that turns your passive list-keeping into an ac
 4.  Open the app in your browser (usually `http://localhost:5173`).
 5.  Click the ⚙️ icon in the top right to enter your Gemini API key.
 
+## Security Updates
+
+- **January 2026**: Updated React and React-DOM to version `19.2.3` to patch critical security vulnerabilities (CVE-2025-55182 / React2Shell) related to React Server Components.
+
 ## License
 
 MIT
